@@ -2,39 +2,56 @@
 <html>
 <head>
     <title>Contact</title>
+     <!-- Bootstrap External StylesheetS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+     
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <h1>Contact </h1>
 
 
 <!-- Contact Us form -->
-<form>
-  <div class="form-group">
+	<form action="/action_page.php"> <!-- fix -->
+	<div class="form-group">
+ 
     <label for="first_name">First Name</label>
     <input type="text" class="form-control" id="first_name" placeholder="Enter your First Name" required>
-</div>
+	</div>
   
+  <!-- Second name input -->
 <div class="form-group">
     <label for="second_name">Second Name</label>
     <input type="text" class="form-control" id="second_name" placeholder="Enter your Second Name" required>
 </div>
 
+<!-- Email input -->
 <div class="form-group">
 <label for="Email">Email</label>
 <input type="email" class="form-control" id="email"  placeholder="Enter a vaild email address" required>
 </div>
 
+<!-- Subject input -->
 <div class="form-group">
-<textarea name="message" id="message" class="form-control" placeholder="Please enter your query here" cols="30" rows="4" required></textarea></div>
+<label for="subject">Subject</label>
+<input type="text" class="form-control" id="subject"  placeholder="Enter your subject" required>
+</div>
 
+<!-- Testarea input -->
+<div class="form-group">
+<textarea name="message" id="message" class="form-control" placeholder="Please enter your question here" cols="30" rows="4" required></textarea></div>
 
 <!-- Submit Button -->
-<button type="submit" class="btn btn-primary">Submit</button>
+<button type="submit" class="btn btn-primary">Send</button>
 
 <!-- Reset Button -->
 <button type="reset" class="btn btn-primary">Reset</button>
 
-</form>
+<!-- End of Contact Form -->
+</div></form>
 
+<!-- Scripts -->
+    
+  
 </body>
 </html>
