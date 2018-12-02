@@ -2,125 +2,201 @@
 <html>
 <head>
     <title>Nightlife</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="../../css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
     <link type="text/css" rel="stylesheet" href="../../css/general.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
 </head>
 <body>
     <h1>Nightlife</h1>
-
-<!-- Infor on Limelight -->
-    <button class="accordion">Limelight</button>
-    <div class="panel">
-        <p>Limelight is well known for its nightclub and the fact it's also a live music venue. Its been staging rock & indie shows since the 1980s. This nightclub offers a variety of musical tastes from its three seperate nightclub facilities. We have limelight 1 the main area of the club for our pop and club music, limelight 2 for those more interested in their classic rock and heavy metal abd katies bar joining the two for a more mixed and chilled atmosphere. During the week the club operates a comedy club and student club nights where they host special events, special guests and various DJs. There's also a list of drink promotions on offer as well! The venue now caters to 900 music lovers and comprises of two venues, a bar and a rooftop terrace! </p>
-
-        <p>17 Ormeau Ave, Belfast BT2 8HD</p>
-
-        <p>£5 admission fees on Mondays, Tuesdays, Thursdays, Friday and Saturdays!</p>
-
-        <p>You can find out more information about Limelight <a href="http://www.limelightbelfast.com/">here.</a>
-
-        <p>Opening Hours</p>
-        <ul>
-        <li>Monday - Saturday: 12pm–2am</li>
-        <li>Wednesday & Sunday: 5pm–1am</li>
-    </ul>
-        <p>Food locations nearby</p>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="../../images/logo.jpg" width="80" height="80" id="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- collapse nav bar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../about.html">About</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="cafes.html">Cafes </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="restaurants.html">Restaurants</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="thingsToDo.html">Things To Do</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tourismSpots.html">Tourism Spots</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bars.html">Bars</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Nightlife <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../help.html">Help</a>
+                </li>
+            </ul>
+        </div>
+    </nav>	
+    <div class="container-fluid">
+        <!-- Info on Limelight -->
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseThree">
+                    Limelight
+                </button>
+                </h5>
+            </div>
+            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p>Limelight is well known for its nightclub and the fact it's also a live music venue. Its been staging rock & indie shows since the 1980s. This nightclub offers a variety of musical tastes from its three seperate nightclub facilities. We have limelight 1 the main area of the club for our pop and club music, limelight 2 for those more interested in their classic rock and heavy metal abd katies bar joining the two for a more mixed and chilled atmosphere. During the week the club operates a comedy club and student club nights where they host special events, special guests and various DJs. There's also a list of drink promotions on offer as well! The venue now caters to 900 music lovers and comprises of two venues, a bar and a rooftop terrace! </p>
+                    <p>Location: 17 Ormeau Ave, Belfast BT2 8HD</p>
+                    <p>Price: £5 admission fees on Mondays, Tuesdays, Thursdays, Friday and Saturdays!</p>
+                    <p>You can find out more information about Limelight <a href="http://www.limelightbelfast.com/">here.</a>
+                    <p>Opening Hours</p>
+                    <ul>
+                        <li>Monday - Saturday: 12pm–2am</li>
+                        <li>Wednesday & Sunday: 5pm–1am</li>
+                    </ul>
+                    <p>Food locations nearby</p>
+                </div>
+            </div>
+        </div>
+        <!-- Info on Thompsons -->
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseThree">
+                    Thompsons
+                </button>
+                </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p>If you're looking for a high energy night Thompsons Garage is the place for you! It originally opened in 1994 as Thompsons Grarage. It was Belfast's first purpose built club aimed at promoting the many genres of dance music on a weekly basis.  central location in the city along with the heavy remix music give the club an electric atmosphere. Additionally, the club can hold a good capacity and will often allow entry up to a late time as well as staying open later than some other areas. Thompsons offer compettitve drink promotions alongside a number of Facebook copetitions for giveaways and free entry. </p>
+                    <p>Location: 3 Pattersons Pl, Belfast BT1 4HW</p>
+                    <p>Price: £6 entry every night!</p>
+                    <p>You can find out more information about Thompsons on their <a href="https://www.facebook.com/clubthompsons/"> Facebook page.</a>
+                    <p>Opening Hours</p>
+                    <ul>
+                        <li>Monday - Thursday: 9pm - 2am </li>
+                        <li>Friday - Saturday: 9pm - 3am</li>
+                        <li>Sunday: 9pm - 2am</li>
+                    </ul>
+                    <p>Food locations nearby</p>
+                </div>
+            </div>
+        </div>
+        <!-- Info on Kremlin -->
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Kremlin
+                </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p> The Kremlin is aNother club which is sure to give you a memorable night. While the bar proudly describes themsleves as an LGBT bar they are more than welcoming of anyone looking to come for a good night out. On student nights the club offer cheap entry and cheap drinks the whole night which is ideal for students struggling coming up to student finance pay day! Additioally, the club occasionally hosts a BYOB night. The Kremlin plays upbeat often remixes of popular music to help you love the place even more, along with the 2 dancefloors, stages, lightshow and music offered by the club.</p>
+                    <p>Location: 96 Donegall St, Belfast BT1 2GW</p>
+                    <p>Price:</p>
+                    <ul>
+                        <li>£3 on Tuesdays</li>
+                        <li>£2.50 on Thursdays</li>
+                        <li> £4.00 before 11pm on Fridays &amp; £6.00 admission anytime after! </li>
+                        <li>Free admission before 10pm on Satrudays, £5.00 before 11pm &amp; £10.00 after 11!</li>
+                        <li>Free admission on Sundays!</li>
+                    </ul>
+                    <p>You can find out more information about Kremlin <a href="http://www.kremlin-belfast.com/">here.</a>
+                    <p>Opening Hours</p>
+                    <ul>
+                        <li>Monday - Closed.</li>
+                        <li>Tuesday - Sunday: Open 24hrs</li>
+                    <p>Food locations nearby</p>
+                </div>
+            </div>
+        </div>
+        <!-- The Hatfield info -->
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                    The Hatfield
+                </button>
+                </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p>The Hatfield is home to one of Belfast city's oldest bars. The "Hatfield House" is a traditional Irish Bar, with original fixtures, ornate ceilings and lavish craftsmanship carried out by the same craftsmen who worked on HMS Titanic. It's now over 145 years old and is one of the few bars in Belfast city to escape modernisation, and with live entertainment every night, is one of the city's busiest bars. So grab a beer or a cocktail in The Copperplate, our new downstairs space which breathes atmosphere. Check out our great food specials or our 2 for £6 cocktail offers on a Friday! The Hatfield has something for all ages: for craic, atmosphere, live music, great DJs, fresh food, cocktails, big screen sports and roof garden for those sunny days!</p>
+                    <p>Location: 130 Ormeau Rd, Belfast BT7 2EB</p>
+                    <p>You can find out more information about The Hatfield <a href="http://www.hatfieldhousebelfast.com/">here.</a></p>
+                    <p>Opening Hours</p>
+                    <ul>
+                        <li>Monday - Saturday: 11am - 1am</li>
+                        <li>Sunday: 12pm - 12am</li>
+                    </ul>
+                    <p>Food locations nearby</p>
+                </div>
+            </div>
+        </div>
+        <!-- The Botanic Inn info -->
+        <div class="card">
+            <div class="card-header" id="headingFive">
+                <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                    The Botanic Inn
+                </button>
+                </h5>
+            </div>
+            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p>The Botanic Inn, commonly referred to as "the Bot" is a spacious establishment offering a number of facilities for all interests. They hold day time quizzes, live music in the evening often traditional, a range of large screens inside and out for football lovers, a club upstairs for the late nighters as well as a burger kiosk in the middle of the beer garden. </p>
+                    <p>Locartion: 23-27 Malone Rd, Belfast BT9 6RU</p>
+                    <p>Price: Entry is £5!</p>
+                    <p>You can find out more information about the Botanic Inn <a href="http://www.thebotanicinn.com/#menu-section">here.</a></p>
+                    <p>Opening Hours</p>
+                    <ul>
+                        <li>Monday -Tuesday: 11.30am - 1am</li>
+                        <li>Wed: 11.30 - 2am</li>
+                        <li>Thursday - Friday: 11.30 - 1am</li>
+                        <li>Saturday: 11.30 - 2am</li>
+                        <li>Sunday: 12 - 11.45</li>
+                    </ul>
+                    <p>Food locations nearby</p>
+                </div>
+            </div>
+         </div>    
     </div>
-
-<br>
-    <!-- Info on Thompsons -->
-    <button class="accordion">Thompsons</button>
-    <div class="panel">
-        <p>If you're looking for a high energy night Thompsons Garage is the place for you! It originally opened in 1994 as Thompsons Grarage. It was Belfast's first purpose built club aimed at promoting the many genres of dance music on a weekly basis.  central location in the city along with the heavy remix music give the club an electric atmosphere. Additionally, the club can hold a good capacity and will often allow entry up to a late time as well as staying open later than some other areas. Thompsons offer compettitve drink promotions alongside a number of Facebook copetitions for giveaways and free entry. </p>
-
-        <p>3 Pattersons Pl, Belfast BT1 4HW</p>
-
-        <p>£6 entry every night!</p>
-
-        <p>You can find out more information about Thompsons on their <a href="https://www.facebook.com/clubthompsons/"> Facebook page.</a>
-
-        <p>Opening Hours</p>
-        <ul>
-            <li>Monday - Thursday: 9pm - 2am </li>
-            <li>Friday - Saturday: 9pm - 3am</li>
-            <li>Sunday: 9pm - 2am</li>
-        </ul>
-        <p>Food locations nearby</p>
-
-    </div>
-
-<br>
-    <!-- Info on Kremlin -->
-    <button class="accordion">Kremlin</button>
-    <div class="panel">
-        <p> The Kremlin is aNother club which is sure to give you a memorable night. While the bar proudly describes themsleves as an LGBT bar they are more than welcoming of anyone looking to come for a good night out. On student nights the club offer cheap entry and cheap drinks the whole night which is ideal for students struggling coming up to student finance pay day! Additioally, the club occasionally hosts a BYOB night. The Kremlin plays upbeat often remixes of popular music to help you love the place even more, along with the 2 dancefloors, stages, lightshow and music offered by the club.
-
-        <p>96 Donegall St, Belfast BT1 2GW</p>
-
-        <ul>
-            <li>£3 on Tuesdays</li>
-            <li>£2.50 on Thursdays</li>
-            <li> £4.00 before 11pm on Fridays &amp; £6.00 admission anytime after! </li>
-            <li>Free admission before 10pm on Satrudays, £5.00 before 11pm &amp; £10.00 after 11!</li>
-            <li>Free admission on Sundays!</li>
-        </ul>
-
-        <p>You can find out more information about Kremlin <a href="http://www.kremlin-belfast.com/">here.</a>
-
-        <p>Opening Hours</p>
-        <ul>
-            <li>Monday - Closed.</li>
-            <li>Tuesday - Sunday: Open 24hrs</li>
-
-        <p>Food locations nearby</p>
-    </div>
-
-<br>
-    <!-- The Hatfield info -->
-    <button class="accordion">The Hatfield</button>
-    <div class="panel">
-        <p>The Hatfield is home to one of Belfast city's oldest bars. The "Hatfield House" is a traditional Irish Bar, with original fixtures, ornate ceilings and lavish craftsmanship carried out by the same craftsmen who worked on HMS Titanic. It's now over 145 years old and is one of the few bars in Belfast city to escape modernisation, and with live entertainment every night, is one of the city's busiest bars. So grab a beer or a cocktail in The Copperplate, our new downstairs space which breathes atmosphere. Check out our great food specials or our 2 for £6 cocktail offers on a Friday! The Hatfield has something for all ages: for craic, atmosphere, live music, great DJs, fresh food, cocktails, big screen sports and roof garden for those sunny days!
-
-        <p>130 Ormeau Rd, Belfast BT7 2EB</p>
-
-         <p>You can find out more information about The Hatfield <a href="http://www.hatfieldhousebelfast.com/">here.</a>
-
-        <p>Opening Hours</p>
-        <ul>
-        <li>Monday - Saturday: 11am - 1am</li>
-        <li>Sunday: 12pm - 12am</li>
-    </ul>
-
-        <p>Food locations nearby</p>
-        <p></p>
-    </div>
-
-<br>
-    <!-- The Botanic Inn info -->
-    <button class="accordion">The Botanic Inn</button>
-    <div class="panel">
-        <p>The Botanic Inn, commonly referred to as "the Bot" is a spacious establishment offering a number of facilities for all interests. They hold day time quizzes, live music in the evening often traditional, a range of large screens inside and out for football lovers, a club upstairs for the late nighters as well as a burger kiosk in the middle of the beer garden. </p>
-
-        <p>Location</p>
-        <p>23-27 Malone Rd, Belfast BT9 6RU
-
-        <p>Entry is £5!</p>
-
-         <p>You can find out more information about the Botanic Inn</b> <a href="http://www.thebotanicinn.com/#menu-section">here.</a>
-
-        <p>Opening Hours</p>
-        <ul>
-        <li>Monday -Tuesday: 11.30am - 1am</li>
-        <li>Wed: 11.30 - 2am</li>
-        <li>Thursday - Friday: 11.30 - 1am</li>
-        <li>Saturday: 11.30 - 2am</li>
-        <li>Sunday: 12 - 11.45</li>
-    </ul>
-
-        <p>Food locations nearby</p>
-    </div>
-
- <!-- End of body & HTML -->
-</body>
+    <!-- Copyright -->
+    <footer>
+        <div class="footer-copyright text-center py-3">© 2018 Copyright: Lost Student Guide</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../../js/bootstrap.js"></script>
+    <script type="text/javascript"  href="../../js/bootstrap.min.js"/></script> 
+    <!-- End of body & HTML -->
+    </body>
 </html>
