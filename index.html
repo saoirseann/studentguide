@@ -6,51 +6,84 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 	</head>
 	<body>
-		<h1>Lost Student Guide</h1>
-		<h2>Welcome to the Lost Student Guide!</h2>
-		<p>There are two universities situated Belfast. Many students are new to the area and might be feeling a little lost. Have no fear, we at the lost student guide are here to help! We have selected a few locations that students might want to know about.</p>
-		<p>If there is something that you looking for more information on, or maybe you are feeling a little lost, you can get in touch with us <a href="html/contact.html">here</a> or via our <a>twitter: @lostStudentGuide</a> or visit our <a href="html/help.html">help page</a></p>
- 
-		<div class="row">
-			<div class="card" style="width: 34rem;">
-				<img class="card-img-top" src="images/fratelli-belfast.jpg" alt="Image of a restaurant">
-				<div class="card-body">
-					<h3 class="card-text">Restaurants</h3>
-				</div>
+		<div class="container">
+			<div class ="row">
+				<h1>Lost Student Guide</h1>
+				<h2>Welcome to the Lost Student Guide!</h2>
+				<p>There are two universities situated Belfast. Many students are new to the area and might be feeling a little lost. Have no fear, we at the lost student guide are here to help! We have selected a few locations that students might want to know about.</p>
+				<p>If there is something that you looking for more information on, or maybe you are feeling a little lost, you can get in touch with us <a href="html/contact.html">here</a> or via our <a>twitter: @lostStudentGuide</a> or visit our <a href="html/help.html">help page</a></p>
 			</div>
-			<div class="card" style="width: 34rem;">
-				<img class="card-img-top" src="images/cafe-parisien.jpg" alt="Image of a restaurant">
-				<div class="card-body">
-					<h3 class="card-text">Cafes</h3>
-				</div>
-			</div>
-			<div class="card" style="width: 34rem;">
-				<img class="card-img-top" src="images/filthy-mcnastys.jpg" alt="Image of a restaurant">
-				<div class="card-body">
-					<h3 class="card-text">Bars</h3>
-				</div>
-			</div>
-			<div class="card" style="width: 34rem;">
-				<img class="card-img-top" src="images/nightlife.jpg" alt="Image of a restaurant">
-				<div class="card-body">
-					<h3 class="card-text">Nightlife</h3>
-				</div>
-			</div>
-			<div class="card" style="width: 34rem;">
-				<img class="card-img-top" src="images/concert-show.jpg" alt="Image of a restaurant">
-				<div class="card-body">
-					<h3 class="card-text">Things to Do</h3>
-				</div>
-			</div>
-			<div class="card" style="width: 34rem;">
-				<img class="card-img-top" src="images/titanic-boat.jpg" alt="Image of a restaurant">
-				<div class="card-body">
-					<h3 class="card-text">Tourism Spots</h3>
+			<div class ="row">
+				<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
+					<ol class="carousel-indicators">
+						<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
+						<li data-target="#carouselIndicators" data-slide-to="1" class=""></li>
+						<li data-target="#carouselIndicators" data-slide-to="2" class=""></li>
+						<li data-target="#carouselIndicators" data-slide-to="3" class=""></li>
+						<li data-target="#carouselIndicators" data-slide-to="4" class=""></li>
+						<li data-target="#carouselIndicators" data-slide-to="5" class=""></li>
+					</ol>
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<div class="card" style="width: 60rem;">
+								<img class="card-img-top" src="images/fratelli-belfast.jpg" alt="Image of a restaurant">
+								<div class="card-body">
+									<h3 class="card-text">Restaurants</h3>
+								</div>
+							</div>			
+						</div>
+						<div class="carousel-item ">
+							<div class="card" style="width: 60rem;">
+								<img class="card-img-top" src="images/cafe-parisien.jpg" alt="Image of a restaurant">
+								<div class="card-body">
+									<h3 class="card-text">Cafes</h3>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+							<div class="card" style="width: 60rem;">
+								<img class="card-img-top" src="images/filthy-mcnastys.jpg" alt="Image of a restaurant">
+								<div class="card-body">
+									<h3 class="card-text">Bars</h3>
+								</div>
+							</div>
+						</div>
+						<div class="carousel-item">
+								<div class="card" style="width: 60rem;">
+									<img class="card-img-top" src="images/nightlife.jpg" alt="Image of a restaurant">
+									<div class="card-body">
+										<h3 class="card-text">Nightlife</h3>
+									</div>
+								</div>			
+							</div>
+							<div class="carousel-item ">
+								<div class="card" style="width: 60rem;">
+									<img class="card-img-top" src="images/concert-show.jpg" alt="Image of a restaurant">
+									<div class="card-body">
+										<h3 class="card-text">Things To Do</h3>
+									</div>
+								</div>
+							</div>
+							<div class="carousel-item">
+								<div class="card" style="width: 60rem;">
+									<img class="card-img-top" src="images/titanic-boat.jpg" alt="Image of a restaurant">
+									<div class="card-body">
+										<h3 class="card-text">Tourism Spots</h3>
+									</div>
+								</div>
+							</div>
+					</div>
+					<a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
 				</div>
 			</div>
 		</div>
-
-		
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 	</body>
 </html>
