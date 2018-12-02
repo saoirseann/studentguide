@@ -24,17 +24,21 @@ h1, h2, h3 {
 	
 }
 a:link {
-	color: #00498d;
+	color:#031bec;
 }
 
 a:visited {
-	color:#911bff;
+	color:#031bec;
 }
 
 a:hover {
-	color:#031bec;
+	color:#911bff;
 }
 
 .card-help {
 	margin: 5em;
+}
+
+.card {
+	margin: 0.5em;
 }
