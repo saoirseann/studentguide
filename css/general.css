@@ -34,3 +34,7 @@ a:visited {
 a:hover {
 	color:#031bec;
 }
+
+.card-help {
+	margin: 5em;
+}
