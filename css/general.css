@@ -24,13 +24,13 @@ h1, h2, h3 {
 	
 }
 a:link {
-	color: #0d1e2e;
+	color: #00498d;
 }
 
 a:visited {
-color:#0d1e2e;
+	color:#911bff;
 }
 
 a:hover {
-	color:#000000;
+	color:#031bec;
 }

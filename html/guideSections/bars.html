@@ -2,48 +2,186 @@
 <html>
 <head>
     <title>Bars</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="../../css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+    <link type="text/css" rel="stylesheet" href="../../css/general.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
 </head>
 <body>
     <h1>Bars</h1>
-    <button class="accordion">The Speakeasy</button>
-    <div class="panel">
-        <p>Description</p>
-        <p>Location</p>
-        <p>Price Rating</p>
-        <p>Link to website / socials if exists</p>
-        <p>Opening Hourse</p>
+    <!-- Nav bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="../../images/logo.jpg" width="80" height="80" id="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- collapse nav bar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../about.html">About</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="cafes.html">Cafes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="restaurants.html">Restaurants</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="thingsToDo.html">Things To Do</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="tourismSpots.html">Tourism Spots</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Bars <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="nightlife.html">Nightlife</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../contact.html">Contact Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../help.html">Help</a>
+                </li>
+            </ul>
+        </div>
+    </nav>	
+    <div class="container-fluid">
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    QUB Speakeasy
+                </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p>The Speakeasy in Queen's University aims to be the local for students in Queen's University. Don't feel discluded if you aren't a QUB student though, you are more than welcome!</p>
+                    <p>Lisburn Road</p>
+                    <p>Price Rating: £</p>
+                    <p><a href="http://www.qubsu.org/YourUnion/WhatsInside/TheSpeakeasy/">Visit their website for more information</a>></p>
+                    <p>Opening Hours</p>
+                    <ul>
+                        <li>Monday - Saturday: 8.30am - 10.30pm</li>
+                        <li>Sunday: 12pm - 10pm</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Lavery's
+                </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p>A long-standing traditional bar with sport on TV, a pool room with 18 tables, and a roof terrace.</p>
+                    <p>Bradbury Place</p>
+                    <p>££</p>
+                    <p><a href="https://www.laverysbelfast.com/">Visit their website for more information</a>></p>
+                    <p>Opening Hours</p>
+                    <ul>
+                        <li>Monday - Friday: 11:30am - 1.30am</li>
+                        <li>Saturday: 11:30 - 3am</li>
+                        <li>Sunday: 11:30am - 1.30am</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        The Perch
+                    </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p>The Perch is a beautiful rooftop cocktail bar that sits on top of a converted Victorian warehouse.</p>
+                    <p>Location: Franklin Street</p>
+                    <p>Price Rating: £££</p>
+                    <p><a href="https://www.theperchbelfast.com/">Visit their website for more information</a>></p>
+                    <p>Opening Hours</p>
+                    <ul>
+                        <li>Monday: 5pm - 1am</li>
+                        <li>Tuesday: 5pm - 12am</li>
+                        <li>Wedneday - Saturday: 5pm - 1am</li>
+                        <Li>Sunday: 5pm - 12am</Li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        The Dirty Onion and Yardbird
+                </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p>Traditional looking pub with a modern vibe including a Jameson barrel sculpture in the beer garden</p>
+                    <p>Hill Street</p>
+                    <p>££</p>
+                    <p><a href="http://www.thedirtyonion.com/">Visit their website for more information</a>></p>
+                    <p>Opening Hours</p>
+                    <ul>
+                        <li>Monday - Saturday: 12pm - 1am</li>
+                        <li>Sunday: 12pm - 12am</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Collapsible Group Item #6
+                </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p>The mix match furniture of Filthy McNastys, the quirky décor consisting of mannequins doubling as tall lamps and vintage vinyls adorning the walls create a unique charm which makes all walks of life feel welcome.</p>
+                    <p>Location: Dublin Road</p>
+                    <p>Price Rating: ££</p>
+                    <p><a href="http://www.thefilthyquarter.com/filthymcnastys/">Visit their website for more information</a></p>
+                    <p>Opening Hours</p>
+                    <ul>
+                        <li>Monday - Sunday: 1pm - 1am</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </div>
-    <button class="accordion">Lavery's</button>
-    <div class="panel">
-        <p>Description</p>
-        <p>Location</p>
-        <p>Price Rating</p>
-        <p>Link to website / socials if exists</p>
-        <p>Opening Hourse</p>
-    </div>
-    <button class="accordion">The Perch</button>
-    <div class="panel">
-        <p>Description</p>
-        <p>Location</p>
-        <p>Price Rating</p>
-        <p>Link to website / socials if exists</p>
-        <p>Opening Hourse</p>
-    </div>
-    <button class="accordion">The Dirty Onion</button>
-    <div class="panel">
-        <p>Description</p>
-        <p>Location</p>
-        <p>Price Rating</p>
-        <p>Link to website / socials if exists</p>
-        <p>Opening Hourse</p>
-    </div>
-    <button class="accordion">Filthy Mc Nasty's</button>
-    <div class="panel">
-        <p>Description</p>
-        <p>Location</p>
-        <p>Price Rating</p>
-        <p>Link to website / socials if exists</p>
-        <p>Opening Hourse</p>
-    </div>
+
+        
+
+    <!-- Copyright -->
+    <footer>
+        <div class="footer-copyright text-center py-3">© 2018 Copyright: Lost Student Guide</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../../js/bootstrap.js"></script>
+    <script type="text/javascript"  href="../../js/bootstrap.min.js"/></script> 
 </body>
 </html>
