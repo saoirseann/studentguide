@@ -2,93 +2,155 @@
 <html>
 <head>
     <title>Things To Do</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="../../css/bootstrap.css"/>
+    <link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
     <link type="text/css" rel="stylesheet" href="../../css/general.css"/>
     <link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
 </head>
 <body>
-    
     <h1>Things To Do</h1>
-    <button class="accordion">Cinemas</button>
-    <div class="panel">
-        <p>We have up to 6 different cinemas within Belfast city centre, ranging from the most popular Multiplex cinema branch the Movie House on the Dublin Road to the Odeon in Victoria Square and the Odyssey in SSE Arena. With so many screens to choose from, all with comfortable seats and surround sound. Amongst students the Movie House would be the most popular as it’s located right beside Botanic and city centre. Get yourself down for their Crazy Tuesdays, £3.50 tickets all day or on any other day of the week spend £5 with your student card.
-        Whilst the Odyssey has special offers, the most popular being the student Sunday. When you can take full advantage of using your student card and get your ticket for £3.50 or even spend the entire day there watching 3 different films for just £9!</p>
-
-        <p>Location</p>
-        <p>Movie House 
-        14 Dublin Rd,
-        Belfast 
-        BT2 7HN</p>
-
-        <p>Price Rating</p>
-        <ul>
-        <li>Adults: £6.50</li>
-        <li>Kids: £4.90</li>
-        <li>Students: £5.00</li>
-        <li>Crazy Tuesdays: £3.50 All day</li>
-        <li>Family Pass: £18.00 (2 adults & 2 kids)</li>
-        <li>Morning Matinee: £3.50 (before noon)</li>
-</ul>
-
-        <a href="https://www.moviehouse.co.uk/Movie/Cinema/1/dublin_road">Movie House Dublin Road Website</a>
-
-        <p>Opening Hours</p>
-        <p>Monday - Sunday: 12 - 10pm</p>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img src="../../images/logo.jpg" width="80" height="80" id="logo">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- collapse nav bar -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../about.html">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="cafes.html">Cafes</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="restaurants.html">Restaurants </a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Things to Do <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="tourismSpots.html">Tourism Spots</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="bars.html">Bars</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="nightlife.html">Nightlife</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../contact.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../help.html">Help</a>
+            </li>
+            </ul>
+        </div>
+    </nav>	
+    <div class="container-fluid">
+        <div class="accordion" id="accordion-Example">
+            <div class="card">
+                <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseThree">
+                        Cinema
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h5 class="card-title">What we think you should know</h5>
+                        <p>We have up to 6 different cinemas within Belfast city centre, ranging from the most popular Multiplex cinema branch the Movie House on the Dublin Road to the Odeon in Victoria Square and the Odyssey in SSE Arena. With so many screens to choose from, all with comfortable seats and surround sound. Amongst students the Movie House would be the most popular as it’s located right beside Botanic and city centre. Get yourself down for their Crazy Tuesdays, £3.50 tickets all day or on any other day of the week spend £5 with your student card.
+                            Whilst the Odyssey has special offers, the most popular being the student Sunday. When you can take full advantage of using your student card and get your ticket for £3.50 or even spend the entire day there watching 3 different films for just £9!</p>
+                            <p>Location: Movie House, 14 Dublin Rd, Belfast, BT2 7HN</p>
+                            <p>Price:</p>
+                            <ul>
+                                <li>Adults: £6.50</li>
+                                <li>Kids: £4.90</li>
+                                <li>Students: £5.00</li>
+                                <li>Crazy Tuesdays: £3.50 All day</li>
+                                <li>Family Pass: £18.00 (2 adults & 2 kids)</li>
+                                <li>Morning Matinee: £3.50 (before noon)</li>
+                            </ul>
+                            <p><a href="https://www.moviehouse.co.uk/Movie/Cinema/1/dublin_road">Movie House Dublin Road Website</a></p>
+                            <p>Opening Hours</p>
+                            <u><li>Monday - Sunday: 12 - 10pm</li></u>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        Concerts
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h5 class="card-title">What we think you should know</h5>
+                        <p>Description</p>
+                        <p>Location</p>
+                        <p>Price Rating</p>
+                        <p>Link to website / socials if exists</p>
+                        <p>Opening Hours</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        Gym
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h5 class="card-title">What we think you should know</h5>
+                        <p>Description</p>
+                        <p>Location</p>
+                        <p>Price Rating</p>
+                        <p>Link to website / socials if exists</p>
+                        <p>Opening Hours</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseThree">
+                        Train to Dublin
+                    </button>
+                    </h5>
+                </div>
+                <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                    <div class="card-body">
+                        <h5 class="card-title">What we think you should know</h5>
+                        <p>Description</p>
+                        <p>Location</p>
+                        <p>Price Rating</p>
+                        <p>Link to website / socials if exists</p>
+                        <p>Opening Hours</p>
+                    </div>
+                </div>
+            </div>     
+        </div>
     </div>
+    
 
-    <button class="accordion">Museums</button>
-    <div class="panel">
-        <p>With so many museums in Belfast it’s hard to choose where to go. However, the award-winning Titanic Belfast stands out by far to be one of the most popular iconic tourist attractions, with having won the ‘World’s Leading Tourist Attraction’ at the Tourism Oscars in 2016. Beside the Titanic, there’s also a maritime museum aboard the SS Nomadic, as this was the ship built to carry only the 1st and 2nd class passengers to the Titanic.
-        Whilst there’s also the Ulster Museum, known for it’s classical renaissance style setting with its displays on art, furniture, costume, ceramics and on industry. The HMS Caroline is a hands-on exhibit, with restored quarters and engine rooms on a navy C-class light cruiser built in 1914.</p>
-
-        <p>Location</p>
-
-        <p>Price Rating</p>
-
-        <p>Link to website / socials if exists</p>
-
-        <p>Opening Hours</p>
-
-    </div>
-
-    <button class="accordion">Concerts</button>
-    <div class="panel">
-        <p>Description</p>
-
-        <p>Location</p>
-
-        <p>Price Rating</p>
-
-        <p>Link to website / socials if exists</p>
-
-        <p>Opening Hours</p>
-
-    </div>
-
-    <button class="accordion">Gyms</button>
-    <div class="panel">
-        <p>Description</p>
-
-        <p>Location</p>
-
-        <p>Price Rating</p>
-
-        <p>Link to website / socials if exists</p>
-
-        <p>Opening Hours</p>
-    </div>
-
-    <button class="accordion">Train Dublin</button>
-    <div class="panel">
-        <p>Description</p>
-
-        <p>Location</p>
-
-        <p>Price Rating</p>
-
-        <p>Link to website / socials if exists</p>
-
-        <p>Opening Hours</p>
-    </div>
+    <!-- Copyright -->
+    <footer>
+            <div class="footer-copyright text-center py-3">© 2018 Copyright: Lost Student Guide</div>
+        </footer>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="../../js/bootstrap.js"></script>
+        <script type="text/javascript"  href="../../js/bootstrap.min.js"/></script>
+        </body>
 </body>
 </html>
