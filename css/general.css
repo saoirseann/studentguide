@@ -15,6 +15,11 @@ h1 {
 h2 {
 	text-align: center;
 }
+
+h3 {
+	text-align: center;
+}
+
 h1, h2, h3 {
 	font-family: 'Sedgwick Ave', cursive;
 	color: #0d1e2e;
@@ -35,7 +40,11 @@ a:hover {
 	color:#911bff;
 }
 
-.card-help {
+#card-help-mental {
+	margin: 5em;
+}
+
+#card-help-physical {
 	margin: 5em;
 }
 
