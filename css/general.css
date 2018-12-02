@@ -1,0 +1,37 @@
+body {
+	background-color: #87bcde;
+}
+p, li {
+	
+   font-family: 'Coming Soon', cursive;
+    padding-right: 10px;
+    padding-left: 30px;
+    color: #0d1e2e;
+}
+h1 {
+	font-size: 60px;
+	text-align: center;
+}
+h2 {
+	text-align: center;
+}
+h1, h2, h3 {
+	font-family: 'Sedgwick Ave', cursive;
+	color: #0d1e2e;
+	padding-top: 20px;
+    padding-right: 10px;
+    padding-left: 30px;
+	
+}
+a:link {
+	color: #0d1e2e;
+}
+
+a:visited: {
+color:#0d1e2e;
+}
+
+a:hover {
+	color:#000000;
+}
+

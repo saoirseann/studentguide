@@ -2,12 +2,56 @@
 <html>
 	<head>
 		<title>LSG</title>
+		<link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
 		<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css"/>
-		<link type="text/css" rel="stylesheet" href="css/mainStyle.css"/>
+
+		<link type="text/css" rel="stylesheet" href="css/general.css"/>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
+
 	</head>
 	<body>
-		<div class="container-fluid ">
+	<!-- Nav bar -->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<img src="images/logo.jpg" width="80" height="80" id="logo">
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		  <span class="navbar-toggler-icon"></span>
+		</button>
+		<!-- collapse nav bar -->
+		<div class="collapse navbar-collapse" id="navbarNav">
+		  <ul class="navbar-nav">
+			<li class="nav-item active">
+			  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="html/about.html">About</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="html/guideSections/cafes.html">Cafes</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="html/guideSections/restaurants.html">Restaurants</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="html/guideSections/thingsToDo.html">Things To Do</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="html/guideSections/tourismSpots.html">Tourism Spots</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="html/guideSections/bars.html">Bars</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link" href="html/guideSections/nightlife.html">Nightlife</a>
+			</li>
+			 <li class="nav-item">
+			  <a class="nav-link" href="html/help.html">Help</a>
+			</li>
+		  </ul>
+		</div>
+	  </nav>	
+	<div class="container-fluid ">
 			<main class="col-12 col-md-9 col-xl-8 py-md-3 pl-md-5" role="main">				
 				<div class ="container">
 					<h1>Lost Student Guide</h1>
@@ -29,42 +73,43 @@
 							<div class="carousel-item active">
 								<a href="html/guideSections/restaurants.html"><img class="d-block w-100"  alt="Image of a restaurant" src="images/fratelli-belfast.jpg"></a>
 								<div class="carousel-caption d-none d-md-block">
-									<h3>Restaurants</h3>
+									<h3 style="color:white">Restaurants</h3>
 									<p><a href="html/guideSections/restaurants.html" style="color:white">Click here to find out about restuarants in Belfast</a></p>
+
 								</div>
 							</div>
 							<div class="carousel-item"> 
 								<a href="html/guideSections/bars.html"><img class="d-block w-100" alt="Image of a bar" src="images/filthy-mcnastys.jpg"></a>
 								<div class="carousel-caption d-none d-md-block">
-									<h3>Bars</h3>
+									<h3 style="color:white">Bars</h3>
 									<p><a href="html/guideSections/bars.html" style="color:white">Click here to find out about bars in Belfast</a></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<img class="d-block w-100" alt="Image of a cafe" src="images/cafe-parisien.jpg" >
 								<div class="carousel-caption d-none d-md-block">
-									<h3>Cafes</h3>
-									<p><a href="html/guideSections/cafes.html" style="color:white">Click here to find out about cafes in Belfast</a></Click></p>
+									<h3 style="color:white">Cafes</h3>
+									<p><a href="html/guideSections/cafes.html" style="color:white">Click here to find out about cafes in Belfast</a></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 									<a href="html/guideSections/nightlife.html"><img class="d-block w-100"  alt="Image of nightlife" src="images/nightlife.jpg"></a>
 								<div class="carousel-caption d-none d-md-block">
-									<h3>Nightlife</h3>
-									<p><a href="html/guideSections/nightlife.html" style="color:white"></a>Click here to find out about the nightlife in Belfast</p>
+									<h3 style="color:white">Nightlife</h3>
+									<p><a href="html/guideSections/nightlife.html" style="color:white">Click here to find out about the nightlife in Belfast</a></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 									<a href="html/guideSections/thingsToDo.html" style="color:white"><img class="d-block w-100" alt="Image of things to do" src="images/concert-show.jpg"></a>
 								<div class="carousel-caption d-none d-md-block">
-									<h3>Things to Do</h3>
+									<h3 style="color:white">Things to Do</h3>
 									<p><a href="html/guideSections/thingsToDo.html" style="color:white">Click here to find out about the things you can do in Belfast</a></p>
 								</div>
 							</div>
 							<div class="carousel-item">
 								<a href="html/guideSections/tourismSpots.html"><img class="d-block w-100" alt="Image of tourism spots" src="images/titanic-boat.jpg"></a>
 								<div class="carousel-caption d-none d-md-block">
-									<h3>Toursim Spots</h3>
+									<h3 style="color:white">Toursim Spots</h3>
 									<p><a href="html/guideSections/tourismSpots.html" style="color:white">Click here to find out about the things you can do here in Belfast and the rest of Northern Ireland</a></p>
 								</div>
 							</div>
@@ -82,6 +127,10 @@
 				</div>
 			</main>
 		</div>
+		<!-- Copyright -->
+		<footer>
+		<div class="footer-copyright text-center py-3">© 2018 Copyright: Lost Student Guide</div>
+		</footer>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script type="text/javascript" src="js/bootstrap.js"></script>
 		<script type="text/javascript"  href="js/bootstrap.min.js"/>
