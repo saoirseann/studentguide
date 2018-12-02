@@ -2,72 +2,148 @@
 <html>
 <head>
     <title>Restaurants</title>
-    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" rel="stylesheet" href="../../css/bootstrap.css"/>
+		<link type="text/css" rel="stylesheet" href="../../css/bootstrap.min.css"/>
+		<link type="text/css" rel="stylesheet" href="../../css/general.css"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link href="https://fonts.googleapis.com/css?family=Sedgwick+Ave" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Coming+Soon" rel="stylesheet">
 </head>
 <body>
+
     <h1>Restaurants</h1>
-    <button class="accordion">French Village Cafe & Bistro</button>
-    <div class="panel">
-        <p>French VIllage Cafe & Bistro is the perfect place for anything from a quick coffee and a traybake, to an evening meal (you can even bring your own bottle! We love their sandwiches from the deli!</p>
-        <p>Botanic Avenue, Belfast</p>
-        <p>££</p>
-        <p><a href="https://www.frenchvillagebakery.co.uk/">Visit their website for more information</a></p>
-        <p>Opening Hours</p>
-        <ul>
-            <li>Monday - Friday: 7:30am - 10pm</li>
-            <li>Saturday: 9am - 10pm</li>
-            <li>Sunday: 9am - 6pm</li>
-        </ul>
-    </div>
-    <button class="accordion">Umi Falafel</button>
-    <div class="panel">
-        <p>Umi Falafel offers a range of delicious vegetarian and vegan dishes. Everything on the menu is made fresh daily and their juices are so refreshing. Six falafel with humus and sweet chilli sauce for £3.50, now that's a bargain!</p>
-        <p>Botanic Aveneue, Belfast</p>
-        <p>£</p>
-        <p><a href="http://umifalafel.ie/">Visit their website for more information</a></p>
-        <p>Opening Hours:</p>
-        <ul>
-            <li>Monday - Sunday: 12am - 9pm</li> 
-        </ul>
-    </div>
-    <button class="accordion">Maggie Mays</button>
-    <div class="panel">
-        <p>Whatever you are in the mood for, Maggie May's probably have it on their menu. Their daily specials and amazing milkshakes will give you a good feed and won't put you out of pocket.</p>
-        <p>Malone Road Belfast</p>
-        <p>££</p>
-        <p><a href="https://maggiemaysbelfastcafe.co.uk/">Visit their website for more information.</a>></p>
-        <p>Opening Hours</p>  
-        <ul>
-            <li>Monday - Friday: 8am - 9:30pm</li>
-            <li>Saturday - Sunday: 9am - 10:30pm</li>
-        </ul>    
-    </div>
-    <button class="accordion">Nando's</button>
-    <div class="panel">
-        <p>Nando's is a casual dining chain restaurant with origins in South African. They specialise in Portuguese style chicken dishes with various peri-peri marinades.</p>
-        <p>Ormeay Avenue</p>
-        <p>££</p>
-        <p><a href="https://www.nandos.co.uk/restaurants/belfast-bedford-street">Visit their website for more information</a></p>
-        <p>Opening Hours</p>   
-        <ul>
-            <li>Monday - Wednesday: 12am - 10pm</li>
-            <li>Friday - Saturday: 12am - 11pm</li>
-            <li>Sunday: 12am - 10pm</li>
-        </ul>      
-    </div>
-    <button class="accordion">Made In Belfast</button>
-    <div class="panel">
-        <p>Made In Belfast is a cosy restaurant serving a gastropub style menu using sustainable and locally sourced ingredients</p>
-        <p>Talbot Street</p>
-        <p>£££</p>
-        <p><a href="http://madeinbelfastni.com/cathedral-quarter/"></a>Visit their website for more information</p>
-        <p>Opening Hours</p>   
-        <ul>
-            <li>Monday - Thursday: 12 - 9:30pm</li>
-            <li>Friday - Saturday: 12 - 10pm</li>
-            <li>Sunday: 12am - 9pm</li>
-        </ul>     
-    </div>
-    		<script type="text/javascript" src="js/bootstrap.js"></script>
-</body>
+    <container-fluid>
+<div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+            <h5 class="mb-0">
+                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                French Village Cafe & Bistro
+                </button>
+            </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+            <div class="card-body">
+                <h5 class="card-title">What we think you should know</h5>
+                <p>French Village Cafe & Bistro is the perfect place for anything from a quick coffee and a traybake, to an evening meal (you can even bring your own bottle! We love their sandwiches from the deli!</p>
+                <p>Location: Botanic Avenue, Belfast</p>
+                <p>Price Rating: ££</p>
+                <p><a href="https://www.frenchvillagebakery.co.uk/">Visit their website for more information</a></p>
+                <p>Opening Hours</p>
+                <ul>
+                    <li>Monday - Friday: 7:30am - 10pm</li>
+                    <li>Saturday: 9am - 10pm</li>
+                    <li>Sunday: 9am - 6pm</li>
+                </ul>
+                <a href="#" class="btn btn-primary">See it on a map!</a>
+            </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Umi Falafel
+                </button>
+            </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+            <div class="card-body">
+                <h5 class="card-title">What we think you should know</h5>
+                <p>Umi Falafel offers a range of delicious vegetarian and vegan dishes. Everything on the menu is made fresh daily and their juices are so refreshing. Six falafel with humus and sweet chilli sauce for £3.50, now that's a bargain!</p>
+                <p>Location: Botanic Aveneue, Belfast</p>
+                <p>Price Rating:£</p>
+                <p><a href="http://umifalafel.ie/">Visit their website for more information</a></p>
+                <p>Opening Hours:</p>
+                <ul>
+                    <li>Monday - Sunday: 12am - 9pm</li> 
+                </ul>                        
+            </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+            <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Maggie Mays
+                </button>
+            </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+            <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p>Whatever you are in the mood for, Maggie May's probably have it on their menu. Their daily specials and amazing milkshakes will give you a good feed and won't put you out of pocket.</p>
+                    <p>Malone Road Belfast</p>
+                    <p>££</p>
+                    <p><a href="https://maggiemaysbelfastcafe.co.uk/">Visit their website for more information.</a>></p>
+                    <p>Opening Hours</p>  
+                    <ul>
+                        <li>Monday - Friday: 8am - 9:30pm</li>
+                        <li>Saturday - Sunday: 9am - 10:30pm</li>
+                    </ul>    
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Nando's
+                </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <h5 class="card-title">What we think you should know</h5>
+                    <p>Nando's is a casual dining chain restaurant with origins in South Africa. They specialise in Portuguese style chicken dishes with various peri-peri marinades.</p>
+                    <p>Ormeay Avenue</p>
+                    <p>££</p>
+                    <p><a href="https://www.nandos.co.uk/restaurants/belfast-bedford-street">Visit their website for more information</a></p>
+                    <p>Opening Hours</p>   
+                    <ul>
+                        <li>Monday - Wednesday: 12am - 10pm</li>
+                        <li>Friday - Saturday: 12am - 11pm</li>
+                        <li>Sunday: 12am - 10pm</li>
+                    </ul>  
+                </div>
+            </div>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Made In Belfast
+                </button>
+                </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                        <h5 class="card-title">What we think you should know</h5>
+                        <p>Made In Belfast is a cosy restaurant serving a gastropub style menu using sustainable and locally sourced ingredients</p>
+                        <p>Talbot Street</p>
+                        <p>£££</p>
+                        <p><a href="http://madeinbelfastni.com/cathedral-quarter/"></a>Visit their website for more information</p>
+                        <p>Opening Hours</p>   
+                        <ul>
+                            <li>Monday - Thursday: 12 - 9:30pm</li>
+                            <li>Friday - Saturday: 12 - 10pm</li>
+                            <li>Sunday: 12am - 9pm</li>
+                        </ul>     
+                    </div>
+                </div>
+            </div>
+        </div>
+    </container-fluid>
+
+	<!-- Copyright -->
+    <footer>
+        <div class="footer-copyright text-center py-3">© 2018 Copyright: Lost Student Guide</div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="../../js/bootstrap.js"></script>
+    <script type="text/javascript"  href="../../js/bootstrap.min.js"/></script>
+    </body>
 </html>
