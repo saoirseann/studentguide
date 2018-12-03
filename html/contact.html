@@ -60,43 +60,44 @@
 
 <!-- Contact Us form -->
 <div class="container-fluid">
-	<form action="/action_page.php"> <!-- fix -->
+	<form action="https://formspree.io/loststudentguide@gmail.com" method="POST"> <!-- fix -->
         <div class="form-group">
     
         <label for="first_name">First Name</label>
-        <input type="text" class="form-control" id="first_name" placeholder="Enter your First Name" required>
+        <input type="text" name="first-name"class="form-control" id="first_name" placeholder="Enter your First Name" required>
         </div>
     
         <!-- Second name input -->
         <div class="form-group">
             <label for="second_name">Second Name</label>
-            <input type="text" class="form-control" id="second_name" placeholder="Enter your Second Name" required>
+            <input type="text" name="second-name" class="form-control" id="second_name" placeholder="Enter your Second Name" required>
         </div>
 
         <!-- Email input -->
         <div class="form-group">
             <label for="Email">Email</label>
-            <input type="email" class="form-control" id="email"  placeholder="Enter a vaild email address" required>
+            <input type="email" name="email" class="form-control" id="email"  placeholder="Enter a vaild email address" required>
         </div>
 
         <!-- Subject input -->
         <div class="form-group">
             <label for="subject">Subject</label>
-            <input type="text" class="form-control" id="subject"  placeholder="Enter your subject" required>
+            <input type="text" name="query-subject" class="form-control" id="subject"  placeholder="Enter your subject" required>
         </div>
 
-        <!-- Testarea input -->
+        <!-- Textarea input -->
         <div class="form-group">
-            <textarea name="message" id="message" class="form-control" placeholder="Please enter your question here" cols="30" rows="4" required></textarea></div>
+            <label for="message">Query</label>
+            <textarea  name="query" id="message" class="form-control" placeholder="Please enter your question here" cols="30" rows="4" required></textarea>
+        </div>
 
         <!-- Submit Button -->
-        <button type="submit" class="btn btn-primary">Send</button>
+        <button type="submit" name="submit" class="btn btn-primary">Send</button>
 
         <!-- Reset Button -->
-        <button type="reset" class="btn btn-primary">Reset</button>
+        <button type="reset" name="reset" class="btn btn-primary">Reset</button>
                     
             <!-- End of Contact Form -->
-        </div>
     </form>
 </div>
 
