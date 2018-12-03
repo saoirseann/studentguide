@@ -67,3 +67,13 @@ footer p {
 	text-align: center;
 	margin-top:2em;
 }
+
+/* 
+Mobile media queries */
+@media (min-width: 320px) and (max-width: 480px) {
+   
+}
+
+/* 
+Ipad media queries */
+
